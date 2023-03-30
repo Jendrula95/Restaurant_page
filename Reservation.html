@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cegielnia - Rezerwacje</title>
+    <link rel="shortcut icon" href="./logoRest.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="reservation">
+    <div class="navbar">
+        <a class="a_navbar" href="Menu.html">Menu</a>
+        <a class="a_navbar" href="Reservation.html">Rezerwacje</a>
+        <a class="a_navbar" href="AboutUs.html">O Nas</a>
+        <a class="a_navbar" href="Contact.html">Kontakt</a>
+        <a class="a_navbar" href="index.html">Home</a>
+    </div>
+    <div id="reserv">
+        <div class="form_style">
+            <form action="" method="post" id="form">
+                <label for="guest">Imię i Nazwisko: </label><input type="text" name="nazwa" id="guest">
+                </p>
+                <label for="guest">Email: <input type="email" name="email" required id="emails" </p>
+                    <p>
+                        Liczba Gości:
+                        <select name="guest" size="1">
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="data">Wybierz datę:</label>
+                        <input type="date" id="data" name="data">
+                    </p>
+                    <p>
+                        <textarea name="comments" rows="5" cols="20" placeholder="Wiadomość"></textarea>
+                    </p>
+                    <p>
+                        <input class="button"type="submit" value="Rezerwuj">
+                    </p>
+
+            </form>
+        </div>
+    </div>
+    <script src="form_action_submit.js"></script>
+    <script src="we_are_closed.js"></script>
+</body>
